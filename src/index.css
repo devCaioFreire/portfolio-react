@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+:root {
+  --dark-purple: #6d1ae1;
+  --purple: #7259C1;
+  --light-purple: #6d1ae142;
+  --green: #1BCF6C;
+  --strong-green: #05E86B;
+  --white: #fff;
+  --black: #0b0b0d;
+  --text-color: #ffffffad;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--black);
+  background-image: url('./assets/alef.jpg');
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--green);
+}
+
+section {
+  padding: 15rem 0 3rem 0;
+}
+
+.wrap {
+  max-width: 80rem;
+  padding: auto 10rem;
+  margin: auto;
+}
+
+section .title {
+  position: relative;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  padding: 1.25rem;
+  z-index: -1;
+  color: var(--white);
+}
+
+section .title::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 100%;
+  height: 5px;
+  background: var(--green);
+  transform: translateX(-50%);
+  z-index: -1;
+  border-radius: 10rem;
+}
+
+section .title::after {
+  content: '';
+  position: absolute;
+  bottom: -13px;
+  left: 50%;
+  padding: 3px 10px;
+  font-size: 20px;
+  background: var(--black);
+  transform: translateX(-50%);
+  color: var(--dark-purple);
+}

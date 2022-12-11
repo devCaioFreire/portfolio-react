@@ -1,0 +1,41 @@
+.home {
+    display: flex;
+    background-size: cover;
+    height: 100vh;
+    min-height: 31rem;
+    color: #fff;
+    box-shadow: 1px 1px 20px 2px #3b3b3bb3;
+}
+
+.wrap {
+    max-width: 80rem;
+    padding: 0 8rem;
+    margin: auto;
+}
+
+.home-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home-container .text-1 {
+    margin-top: -10rem;
+    font-size: 2rem;
+    border-bottom: 1px solid;
+}
+
+.home-container .text-1 span {
+    font-weight: bold;
+    color: var(--dark-purple);
+}
+
+.home-container .text-2 {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.home-container .text-2 span {
+    font-weight: bold;
+    color: var(--green);
+}

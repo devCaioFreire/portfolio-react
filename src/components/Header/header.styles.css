@@ -1,0 +1,72 @@
+.header-container {
+    color: #fff;
+    width: 100%;
+    height: 7rem;
+    position: fixed;
+}
+
+.header-container .wrap-navbar {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 3.5rem 2rem;
+}
+
+.wrap-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-container .header-logo {
+    cursor: pointer;
+}
+
+.header-menu ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.header-menu ul li {
+    margin-left: 2rem;
+    cursor: pointer;
+    font-weight: 400;
+    transition: all 0.5s;
+    font-weight: bold;
+}
+
+.header-menu ul li:hover {
+    border: 1px solid var(--green);
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: -0.5rem;
+    color: var(--green);
+    transition: all 0.5s;
+}
+
+.header-menu ul li:hover:nth-child(2) {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: -0.5rem;
+    margin-left: 1.4rem;
+    color: var(--green);
+}
+
+.header-menu ul li:hover:nth-child(3) {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: -0.5rem;
+    margin-left: 1.4rem;
+    color: var(--green);
+}
+
+.header-menu ul li:hover:nth-child(4) {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: -0.5rem;
+    margin-left: 1.4rem;
+    color: var(--green);
+}

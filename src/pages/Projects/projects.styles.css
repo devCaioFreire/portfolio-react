@@ -1,0 +1,37 @@
+.projects{
+    padding: 15rem 0 40rem 0;
+}
+
+.projects .projects-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projects .wrap .title::after {
+    content: 'Aplicações WEB & Mobile';
+}
+
+.projects .left {
+    margin-left: -4rem;
+    width: 50%;
+}
+
+.projects .right {
+    width: 50%;
+    text-align: justify;
+}
+
+.projects .projects-content .text-title {
+    font-size: 1.8rem;
+    color: var(--green);
+    font-weight: 500;
+    margin-bottom: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects .projects-content .right p {
+    color: var(--text-color);
+}
