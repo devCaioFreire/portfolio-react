@@ -14,7 +14,11 @@ export const ContactUs = () => {
             }, (error) => {
                 toast.warn('Ops, parece que tem algo errado :(');
             });
-            e.target.reset();
+        e.target.reset();
+
+        if (fisrtName == '' || lastName == '') {
+            toast.warn('Preencha todos os campos.')
+        }
     };
 
     return (

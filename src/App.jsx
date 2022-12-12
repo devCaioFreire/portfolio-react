@@ -5,6 +5,7 @@ import About from "./pages/About/about"
 import GitHub from "./pages/GitHub/github"
 import Projects from "./pages/Projects/projects"
 import Contact from "./pages/Contact/contact"
+import Footer from "./components/Footer/footer"
 import { ToastContainer, Slide } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 
@@ -29,6 +30,7 @@ function App() {
       <GitHub />
       <Projects />
       <Contact />
+      <Footer />
     </>
   )
 }
