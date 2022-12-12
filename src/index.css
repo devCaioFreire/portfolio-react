@@ -15,6 +15,10 @@
   --white: #fff;
   --black: #0b0b0d;
   --text-color: #ffffffad;
+  --input: #262626;
+  --light-input: #303030;
+  --neon: 0px 0px 10px 1px rgba(0, 250, 121, 1);
+
 }
 
 html {

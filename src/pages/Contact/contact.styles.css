@@ -1,3 +1,102 @@
 .contact .title::after {
     content: 'Entre em contato';
 }
+
+.contact .container {
+    margin-top: 5rem;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: var(--white);
+    padding: 1rem 0;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    width: 49%;
+    vertical-align: middle;
+}
+
+.input-box input:hover {
+    background: var(--light-input)
+}
+
+.input-box input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: 2px solid var(--green);
+    border-radius: 7px;
+    outline: none;
+    background: var(--input);
+    color: var(--white);
+    transition: all 0.5s;
+}
+
+.input-box input::placeholder {
+    color: var(--text-color);
+}
+
+.input-box input:focus-visible {
+    box-shadow: var(--neon);
+    transition: all 0.5s;
+}
+
+.input-message {
+    color: var(--white);
+}
+
+.input-message textarea {
+    display: flex;
+    width: 100%;
+    margin: 1rem 0;
+    padding: 1.5rem 1.2rem;
+    height: 10rem;
+    border: 2px solid var(--green);
+    border-radius: 7px;
+    outline: none;
+    background: var(--input);
+    color: var(--white);
+    transition: all 0.5s;
+}
+
+.input-message textarea:hover {
+    background: var(--light-input)
+}
+
+.input-message textarea::placeholder {
+    color: var(--text-color);
+}
+
+.input-message textarea:focus-visible {
+    box-shadow: var(--neon);
+    transition: all 0.5s;
+}
+
+.input-box-b .btn {
+    display: flex;
+    width: 100%;
+    background: var(--green);
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 7px;
+    font-size: 1.2rem;
+    color: var(--black);
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: all 0.5s;
+}
+
+.input-box-b .btn:hover {
+    background: var(--strong-green);
+    box-shadow: var(--neon);
+    transition: all 0.5s;
+}
