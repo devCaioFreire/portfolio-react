@@ -23,22 +23,22 @@ export const ContactUs = () => {
             <div className="input-group">
                 <div className="input-box">
                     <label htmlFor="fisrtName">Nome</label>
-                    <input id='fisrtName' type="text" name='name' placeholder='Caio' required />
+                    <input id='fisrtName' type="text" name='name' placeholder='Ex: Caio' required />
                 </div>
 
                 <div className="input-box">
                     <label htmlFor="lastName">Sobrenome</label>
-                    <input id='lastName' type="text" name='lastname' placeholder='Freire' required />
+                    <input id='lastName' type="text" name='lastname' placeholder='Ex: Freire' required />
                 </div>
 
                 <div className="input-box">
                     <label htmlFor="email">E-mail</label>
-                    <input id='email' type="email" name='email' placeholder='seu@email.com' required />
+                    <input id='email' type="email" name='email' placeholder='Ex: seu@email.com' required />
                 </div>
 
                 <div className="input-box">
                     <label htmlFor="number">WhatsApp</label>
-                    <input id='number' type="tel" name='phone' placeholder='(xx) xxxxx-xxxx' required />
+                    <input id='number' type="tel" name='phone' placeholder='Ex: (xx) xxxxx-xxxx' required />
                 </div>
 
             </div>
