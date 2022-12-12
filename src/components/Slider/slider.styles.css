@@ -1,24 +1,24 @@
 .swiper {
-    padding: 5rem 5rem;
-    margin-top: 10rem;
-
+    padding: 5rem;
+    margin-top: 2rem;
+    border-radius: 100px;
 }
 
 .swiper-slide {
     display: flex;
     justify-content: center;
+  
 }
 
 .swiper-pagination-progressbar-fill {
     border: 2px solid var(--green);
-    border-radius: 10px;
   }
 
 .swiper-pagination.swiper-pagination-progressbar {
     top: inherit;
     bottom: 0;
     background-color: var(--text-color);
-    border-radius: 10px;
+    
 }
 
 .swiper-button-prev {

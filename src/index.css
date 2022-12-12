@@ -3,12 +3,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
+  text-decoration: none;
 }
 
 :root {
   --dark-purple: #6d1ae1;
   --purple: #7259C1;
-  --light-purple: #6d1ae142;
+  --light-purple: #6d1ae112;
   --green: #1BCF6C;
   --strong-green: #05E86B;
   --white: #fff;
@@ -22,7 +23,7 @@ html {
 
 body {
   background: var(--black);
-  background-image: url('./assets/alef.jpg');
+  background-image: url('./assets/background.jpg');
 }
 
 ::-webkit-scrollbar {

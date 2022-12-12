@@ -2,7 +2,7 @@ import './projects.styles.css';
 import codeImg from '../../assets/memoji-mac.png'
 import { Slider, Slide } from '../../components/Slider/';
 
-import { BoxShadow, Calculator, Mybucks, QRCode } from '../../components/Card/cards';
+import { BoxShadow, Calculator, GasApp, Mybucks, Portfolio, QRCode } from '../../components/Card/cards';
 
 function Projects() {
 
@@ -35,21 +35,27 @@ function Projects() {
 
                 <Slider settings={settings}>
                     <Slide>
+                        <Portfolio />
+                    </Slide>
+                    <Slide>
                         <Mybucks />
+                    </Slide>
+                    <Slide>
+                        <QRCode />
                     </Slide>
                     <Slide>
                         <BoxShadow />
                     </Slide>
                     <Slide>
-                        <Calculator />
+                        <GasApp />
                     </Slide>
                     <Slide>
-                        <QRCode />
+                        <Calculator />
                     </Slide>
                 </Slider>
 
             </div>
-        </section>
+        </section >
     )
 }
 

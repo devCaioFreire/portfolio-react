@@ -4,6 +4,7 @@ import Home from "./pages/Home/home"
 import About from "./pages/About/about"
 import GitHub from "./pages/GitHub/github"
 import Projects from "./pages/Projects/projects"
+import Contact from "./pages/Contact/contact"
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <About />
       <GitHub />
       <Projects />
+      <Contact />
     </>
   )
 }

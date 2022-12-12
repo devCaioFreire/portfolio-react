@@ -12,6 +12,7 @@ function Header() {
                         <li>Sobre</li>
                         <li>GitHub</li>
                         <li>Projetos</li>
+                        <li>Contato</li>
                     </ul>
                 </div>
             </div>
