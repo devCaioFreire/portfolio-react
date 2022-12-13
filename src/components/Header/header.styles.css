@@ -28,6 +28,13 @@
     align-items: center;
 }
 
+.menu-btn {
+    color: var(--green);
+    font-size: 25px;
+    cursor: pointer;
+    display: none;    
+}
+
 
 .header-container .header-logo {
     cursor: pointer;

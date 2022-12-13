@@ -43,7 +43,26 @@
 }
 
 /* Tablets */
-@media (max-width: 884px) {
+@media (max-width: 1470px) {
+    .home {
+        background-position: center;
+    }
+}
+
+@media (max-width: 900px) {
+    .home {
+        background-position: center;
+    }
+
+    .home-container .text-1 {
+        margin-top: -13rem;
+        font-size: 2em;
+        border-bottom: 1px solid;
+        color: var(--white);
+    }
+}
+
+@media (max-width: 885px) {
     .home {
         background-position: center;
     }

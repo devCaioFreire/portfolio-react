@@ -47,6 +47,7 @@
     padding: 0.5rem 2rem;
     font-weight: bold;
     font-size: 1rem;
+    color: var(--black);
 }
 
 .github .github-content button:hover {
@@ -55,7 +56,34 @@
 }
 
 /* Tablets */
-@media (max-width: 884px) {
+@media (max-width: 935px) {
+    .github-content .left {
+        width: 60%;
+        margin-left: -8rem;
+        margin-top: -2rem;
+    }
+
+    .github-content .left img {
+        margin-bottom: 3rem;
+    }
+
+    .github-content .right {
+        width: 40%;
+        text-align: justify;
+    }
+
+    .github .github-content button {
+        display: flex;
+        width: 100%;
+    }
+
+    .github .github-content a {
+        width: 100%;
+        color: var(--black);
+    }
+}
+
+@media (max-width: 885px) {
     .github-content .left {
         width: 60%;
         margin-left: -8rem;
@@ -163,11 +191,29 @@
     }
 }
 
+@media (max-width: 700px) {
+    .github-content .left {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .github-content .right {
+        width: 100%;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 700px) {
+    .github-content .left img{
+        width: 100%;
+        margin-left: -2rem;
+    }
+}
+
 /* Mobile */
 @media (max-width: 428px) {
     .github-content .left {
         width: 100%;
-        margin-left: -5rem;
         margin-bottom: 2rem;
     }
 
@@ -197,7 +243,6 @@
 @media (max-width: 360px) {
     .github-content .left img {
         width: 20rem;
-        margin-left: 3rem;
         margin-top: -1rem;
     }
 }

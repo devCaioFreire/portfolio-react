@@ -21,7 +21,7 @@ function About() {
                             desenvolvimento e isso fez com que eu me interessasse ainda mais na área de Front-end e Mobile.
                         </p>
                         <button className='btn'>
-                            <a target={'blank'} href="https://github.com/devCaioFreire">Linkedin <FaLinkedin /></a>
+                            <a target={'blank'} href="https://www.linkedin.com/in/caiofreire/">Linkedin <FaLinkedin /></a>
                         </button>
                     </div>
                 </div>
