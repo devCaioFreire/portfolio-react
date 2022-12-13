@@ -63,3 +63,86 @@
         margin-top: 2rem;
     }
 }
+
+@media (max-width: 414px) {
+    .projects .wrap .title::after {
+        font-size: 0.8rem;
+        padding: 8.5px 7px;
+        z-index: -1;
+    }
+
+    .projects .left {
+        display: flex;
+        margin-left: -1.5rem;
+        width: 100%;
+    }
+}
+
+@media (max-width: 393px) {
+    .projects .wrap .title::after {
+        font-size: 0.75rem;
+        padding: 8px 7px;
+    }
+}
+
+@media (max-width: 390px) {
+    .projects .wrap .title::after {
+        font-size: 0.75rem;
+        padding: 8px 7px;
+    }
+}
+
+@media (max-width: 375px) {
+    .projects .wrap .title::after {
+        font-size: 0.72rem;
+        padding: 8px 7px;
+        z-index: -1;
+    }
+
+    .projects .left {
+        display: flex;
+        margin-left: -2.5rem;
+        width: 100%;
+    }
+}
+
+@media (max-width: 360px) {
+    .projects .wrap .title::after {
+        content: 'Entre em contato';
+        font-size: 0.81rem;
+        padding: 8px 10px;
+        z-index: -1;
+    }
+
+    .projects .left {
+        display: flex;
+        margin-left: -1rem;
+        margin-top: -1.5rem;
+        width: 100%;
+    }
+
+    .projects .left img {
+        width: 20rem;
+    }
+
+    .projects .right {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .projects .projects-content .text-title {
+        margin-top: 2rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .projects .wrap .title::after {
+        font-size: 0.8rem;
+        padding: 10px 10px;
+    }
+
+    .projects .left {
+        margin-left: -2rem;
+    }
+}

@@ -92,14 +92,22 @@
 /* Mobile */
 @media (max-width: 428px) {
     .header-container .header-menu {
-      visibility: hidden;
+        visibility: hidden;
     }
-    
+
     .header-container .header-logo {
         display: flex;
         justify-content: center;
         align-items: center;
         margin: 0 auto;
         width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    .header-container .header-logo {
+        width: 8rem;
+        margin-left: -1.9rem;
+        margin-top: -2rem;
     }
 }

@@ -99,3 +99,29 @@
         box-shadow: 0px 0px 10px 1px rgba(0, 250, 121, 1);
     }
 }
+
+@media (max-width: 414px) {
+    .about .title::after {
+        content: 'Entre em contato';
+        font-size: 1rem;
+        padding: 8px 10px;
+        z-index: -1;
+    }
+}
+
+@media (max-width: 360px) {
+    .about .title::after {
+        content: 'Entre em contato';
+        font-size: 0.81rem;
+        padding: 8px 10px;
+        z-index: -1;
+    }
+}
+
+@media (max-width: 320px) {
+    .about .title::after {
+        content: 'Um pouco sobre mim';
+        font-size: 0.7rem;
+        padding: 8px 6.6px;
+    }
+}

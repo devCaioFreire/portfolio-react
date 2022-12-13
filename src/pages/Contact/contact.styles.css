@@ -109,3 +109,19 @@
     box-shadow: var(--neon);
     transition: all 0.5s;
 }
+
+@media (max-width: 360px) {
+    .contact .title::after {
+        content: 'Entre em contato';
+        font-size: 0.81rem;
+        padding: 9px 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    .contact .title::after {
+        content: 'Entre em contato';
+        font-size: 0.81rem;
+        padding: 9px 10px;
+    }
+}
