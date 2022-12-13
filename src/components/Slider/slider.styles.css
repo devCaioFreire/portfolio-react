@@ -60,6 +60,22 @@ h1 {
     }
 }
 
+@media (max-width: 631px) {
+    .swiper {
+        padding: 0.5rem;
+        border-radius: 20px;
+    }
+}
+
+@media (max-width: 616px) {
+    .swiper {
+        padding: 0rem;
+        margin-top: 2rem;
+        border-radius: 20px;
+    }
+
+}
+
 /* Mobile */
 @media (max-width: 428px) {
     .swiper {

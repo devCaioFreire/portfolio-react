@@ -66,12 +66,24 @@
 
 /* Tablets */
 @media (max-width: 768px) {
-    .container-card .card h1 {    
+    .container-card .card h1 {
         font-size: 1.4rem;
     }
 }
 
+@media (max-width: 616px) {
+    .card {
+        padding: 0rem;
+    }
+}
+
 /* Mobile */
+@media (max-width: 470px) {
+    .container-card .card h1 {
+        visibility: hidden;
+    }
+}
+
 @media (max-width: 428px) {
     .container-card .card h1 {
         display: flex;
