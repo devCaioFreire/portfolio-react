@@ -64,6 +64,14 @@
     transition: all 0.5s;
 }
 
+/* Tablets */
+@media (max-width: 768px) {
+    .container-card .card h1 {    
+        font-size: 1.4rem;
+    }
+}
+
+/* Mobile */
 @media (max-width: 428px) {
     .container-card .card h1 {
         display: flex;

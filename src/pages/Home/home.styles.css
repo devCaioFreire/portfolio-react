@@ -43,11 +43,49 @@
 }
 
 /* Tablets */
+@media (max-width: 884px) {
+    .home {
+        background-position: center;
+    }
+
+    .home-container .text-1 {
+        margin-top: -13rem;
+        font-size: 2em;
+        border-bottom: 1px solid;
+        color: var(--white);
+    }
+}
+
+@media (max-width: 834px) {
+    .home {
+        background-position: center;
+    }
+
+    .home-container .text-1 {
+        margin-top: -13rem;
+        font-size: 2em;
+        border-bottom: 1px solid;
+        color: var(--white);
+    }
+}
+
+@media (max-width: 800px) {
+    .home {
+        background-position: center;
+    }
+
+    .home-container .text-1 {
+        margin-top: -13rem;
+        font-size: 2em;
+        border-bottom: 1px solid;
+        color: var(--white);
+    }
+}
+
 @media (max-width: 768px) {
     .home {
         display: flex;
         margin: auto 0 auto 0;
-        box-shadow: 1px 1px 20px 2px #3b3b3bb3;
         background-position: center;
     }
 

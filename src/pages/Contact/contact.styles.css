@@ -110,6 +110,7 @@
     transition: all 0.5s;
 }
 
+/* Mobile */
 @media (max-width: 360px) {
     .contact .title::after {
         content: 'Entre em contato';

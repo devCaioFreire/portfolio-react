@@ -7,14 +7,14 @@ function Header() {
     const [navbar, setNavbar] = useState(false);
 
     const changeNavbar = () => {
-        if (window.scrollY > 80) {
+        if (window.scrollY > 20) {
             setNavbar(true);
         } else {
             setNavbar(false);
         }
     };
 
-   
+    window.addEventListener('scroll', changeNavbar);
 
     return (
         <header className={navbar ? 'header-container sticky' : 'header-container'}>

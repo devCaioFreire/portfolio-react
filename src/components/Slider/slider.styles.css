@@ -31,6 +31,36 @@ h1 {
     color: var(--white);
 }
 
+/* Tablets */
+@media (max-width: 884px) {
+    .swiper {
+        padding: 1rem;
+        border-radius: 20px;
+    }
+}
+
+@media (max-width: 834px) {
+    .swiper {
+        padding: 1rem;
+        border-radius: 20px;
+    }
+}
+
+@media (max-width: 800px) {
+    .swiper {
+        padding: 1rem;
+        border-radius: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .swiper {
+        padding: 1rem;
+        border-radius: 20px;
+    }
+}
+
+/* Mobile */
 @media (max-width: 428px) {
     .swiper {
         padding: 1rem;
