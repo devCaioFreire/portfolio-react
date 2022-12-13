@@ -21,10 +21,12 @@ function Header() {
         setMenu(!menu)
     }
 
-    // $('.menu-btn').click(function () {
-    //     $('.navbar .menu').toggleClass('active');
-    //     $('.menu-btn i').toggleClass('active');
-    // });
+    function HambMenu() {
+
+    }
+
+
+
 
     return (
         <header className={navbar ? 'header-container sticky' : 'header-container'}>
@@ -40,7 +42,7 @@ function Header() {
                         <li>Contato</li>
                     </ul>
                 </div>
-                <div class="menu-btn">
+                <div className='menu-btn active'>
                     <FiMenu />
                 </div>
             </div>
