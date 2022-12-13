@@ -23,7 +23,7 @@ function Projects() {
                 </div>
                 <div className="projects-content">
                     <div className="column left">
-                        <img src={codeImg} alt={codeImg} width={''} />
+                        <img src={codeImg} alt={codeImg} />
                     </div>
                     <div className="column right">
                         <div className="text-title">

@@ -20,9 +20,11 @@
 }
 
 .home-container .text-1 {
-    margin-top: -10rem;
+    margin-top: -12rem;
     font-size: 2rem;
     border-bottom: 1px solid;
+    color: var(--white);
+    flex-direction: row;
 }
 
 .home-container .text-1 span {
@@ -38,4 +40,33 @@
 .home-container .text-2 span {
     font-weight: bold;
     color: var(--green);
+}
+
+/*  Mobile  */
+@media (max-width: 428px) {
+    .home {
+        display: flex;
+        margin: auto 0 auto 0;        
+        box-shadow: 1px 1px 20px 2px #3b3b3bb3;
+        background-position: center;
+        
+    }
+
+    .wrap {
+        padding: 0 2rem;
+        margin: auto;
+    }
+
+    .home-container .text-1 {
+        margin-top: -12rem;
+        font-size: 1.5em;
+        border-bottom: 1px solid;
+        color: var(--white);
+    }
+
+    .home-container .text-2 {
+        margin-top: 0.5rem;
+        font-size: 1rem;
+    }
+
 }

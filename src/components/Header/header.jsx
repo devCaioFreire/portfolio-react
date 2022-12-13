@@ -1,9 +1,23 @@
 import './header.styles.css';
 import logo from '../../assets/logo2.png';
+import { useState } from 'react';
 
 function Header() {
+
+    const [navbar, setNavbar] = useState(false);
+
+    const changeNavbar = () => {
+        if (window.scrollY > 80) {
+            setNavbar(true);
+        } else {
+            setNavbar(false);
+        }
+    };
+
+   
+
     return (
-        <header className="header-container">
+        <header className={navbar ? 'header-container sticky' : 'header-container'}>
             <div className="wrap-navbar">
                 <img className='header-logo' src={logo} alt={logo} />
                 <div className="header-menu">

@@ -14,7 +14,7 @@
 }
 
 .card {
-   padding: 1rem;
+    padding: 1rem;
 }
 
 .container-card .card h1 {
@@ -62,4 +62,14 @@
     background: var(--strong-green);
     box-shadow: 0px 0px 10px 1px rgba(0, 250, 121, 1);
     transition: all 0.5s;
+}
+
+@media (max-width: 428px) {
+    .container-card .card h1 {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        font-size: 1rem;
+    }
 }

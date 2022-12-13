@@ -1,4 +1,4 @@
-.projects{
+.projects {
     padding: 15rem 0 5rem 0;
 }
 
@@ -34,4 +34,32 @@
 
 .projects .projects-content .right p {
     color: var(--text-color);
+}
+
+/* Mobile */
+@media (max-width: 428px) {
+    .projects .wrap .title::after {
+        font-size: 0.75rem;
+        padding: 8px 7.8px;
+    }
+
+    .projects .left {
+        display: flex;
+        margin-left: -2.2rem;
+        margin-top: -1.5rem;
+        width: 100%;
+    }
+
+    .projects .left img {
+        width: 25rem;
+    }
+
+    .projects .right {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .projects .projects-content .text-title {
+        margin-top: 2rem;
+    }
 }

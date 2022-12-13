@@ -7,18 +7,16 @@
 .swiper-slide {
     display: flex;
     justify-content: center;
-  
 }
 
 .swiper-pagination-progressbar-fill {
     border: 2px solid var(--green);
-  }
+}
 
 .swiper-pagination.swiper-pagination-progressbar {
     top: inherit;
     bottom: 0;
     background-color: var(--text-color);
-    
 }
 
 .swiper-button-prev {
@@ -31,4 +29,11 @@
 
 h1 {
     color: var(--white);
+}
+
+@media (max-width: 428px) {
+    .swiper {
+        padding: 1rem;
+        border-radius: 20px;
+    }
 }
