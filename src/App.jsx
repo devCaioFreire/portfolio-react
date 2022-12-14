@@ -1,4 +1,3 @@
-import RoutesApp from "./routes"
 import Header from "./components/Header/header"
 import Home from "./pages/Home/home"
 import About from "./pages/About/about"

@@ -1,6 +1,6 @@
+import { useState } from 'react';
 import './header.styles.css';
 import logo from '../../assets/logo2.png';
-import { useState } from 'react';
 import { FiMenu } from 'react-icons/fi';
 
 function Header() {
@@ -16,38 +16,56 @@ function Header() {
     };
     window.addEventListener('scroll', changeNavbar);
 
-    const [menu, setMenu] = useState(false);
-    const toggleMode = () => {
-        setMenu(!menu)
-    }
-
-    function HambMenu() {
-
-    }
-
-
-
+    const [mobileMenu, setMobileMenu] = useState(false);
+    const buttonMobileMenu = () => setMobileMenu(!mobileMenu);
 
     return (
-        <header className={navbar ? 'header-container sticky' : 'header-container'}>
-
-            <div className="wrap-navbar">
-                <img className='header-logo' src={logo} alt={logo} />
-                <div className="header-menu">
-                    <ul>
-                        <li>Home</li>
-                        <li>Sobre</li>
-                        <li>GitHub</li>
-                        <li>Projetos</li>
-                        <li>Contato</li>
+        <header className={navbar ? 'headerContainer sticky' : 'headerContainer'}>
+            <nav className="navContainer">
+                <div className="center">
+                    <ul className="list">
+                        <li className="item">
+                            <img src={logo} alt={logo} className="logo" />
+                        </li>
+                        <li className="item">
+                            <button
+                                className="btnMenuMobile"
+                                onClick={buttonMobileMenu}
+                            >
+                                <FiMenu />
+                            </button>
+                        </li>
                     </ul>
+                    <menu
+                        className={
+                            !mobileMenu ? "falseMenuMobile" : "trueMenuMobile"
+                        }
+                    >
+                        <ul className="list">
+                            <li className="item">
+                                <a href="#">Início</a>
+                            </li>
+                            <li className="item">
+                                <a href="#">Sobre</a>
+                            </li>
+                            <li className="item">
+                                <a href="#">Github</a>
+                            </li>
+                            <li className="item">
+                                <a href="#">Projetos</a>
+                            </li>
+                            <li className="item">
+                                <a href="#">Contato</a>
+                            </li>
+                        </ul>
+                    </menu>
                 </div>
-                <div className='menu-btn active'>
-                    <FiMenu />
-                </div>
-            </div>
-        </header >
-    )
+            </nav>
+        </header>
+    );
 }
 
 export default Header;
+
+
+
