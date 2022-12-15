@@ -24,7 +24,6 @@ header .navContainer {
     justify-content: center;
     height: 7rem;
     margin: 0 auto;
-
 }
 
 header .navContainer .center {
@@ -72,9 +71,9 @@ header .navContainer .center .trueMenuMobile .list .item a {
 }
 
 header .navContainer .center .trueMenuMobile .list .item a:hover {
- border-bottom: 1px solid var(--green);
- transition: all 0.5s;
-color: var(--white);
+    border-bottom: 1px solid var(--green);
+    transition: all 0.5s;
+    color: var(--white);
 }
 
 header .navContainer .center .list .item .btnMenuMobile {
@@ -125,12 +124,66 @@ header .navContainer .center .list .item .logo {
         left: 0px;
         transition: all 0.8s;
         padding: 1rem 0rem;
-        border-radius: 10px;
+        border-radius: 5px;
         background: var(--input);
         box-shadow: var(--neon);
     }
 
     header .navContainer .center .trueMenuMobile .list {
         width: 100%;
+    }
+}
+
+@media (max-width: 1200px) {
+    header .navContainer .center .list {
+        padding: 0rem 10%;
+    }
+
+    header .navContainer .center {
+        margin: 0 1rem 0 1rem;
+    }
+}
+
+header .navContainer .center .trueMenuMobile {
+    display: flex;
+    right: 100rem;
+}
+
+
+@media (max-width: 500px) {
+    .header-headerContainer .navContainer {
+        margin: 0 auto;
+        padding: 1rem 3.5rem;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .header-container .wrap-navbar {
+        margin: 0 auto;
+        padding: 1rem 4rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .header-headerContainer .navContainer {
+        margin: 0 auto;
+        padding: 1rem 3.5rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 450px) {
+    .header-container .wrap-navbar {
+        margin: 0 auto;
+        padding: 1rem 2.5rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 400px) {
+    .header-container .wrap-navbar {
+        margin: 0 auto;
+        padding: 1rem 1rem;
     }
 }
